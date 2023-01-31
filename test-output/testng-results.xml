@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T23:57:27 IST" name="Default suite" finished-at="2023-01-31T23:57:51 IST" duration-ms="23763">
+    <groups>
+      <group name="Smoke">
+        <method signature="HomePage_YT.Test01_Launch_application()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" name="Test01_Launch_application" class="youtubeYT.tests.HomePage_YT"/>
+        <method signature="HomePage_YT.Test02_Verfiy_Music_Tab_Hor_menu_is_present()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" name="Test02_Verfiy_Music_Tab_Hor_menu_is_present" class="youtubeYT.tests.HomePage_YT"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-31T23:57:27 IST" name="Default test" finished-at="2023-01-31T23:57:51 IST" duration-ms="23763">
+      <class name="youtubeYT.tests.HomePage_YT">
+        <test-method is-config="true" signature="Launch_browser(java.lang.String)[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" started-at="2023-01-31T23:57:27 IST" name="Launch_browser" finished-at="2023-01-31T23:57:39 IST" duration-ms="11914" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_browser -->
+        <test-method signature="Test01_Launch_application()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" started-at="2023-01-31T23:57:39 IST" name="Test01_Launch_application" finished-at="2023-01-31T23:57:50 IST" duration-ms="11237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_Launch_application -->
+        <test-method signature="Test02_Verfiy_Music_Tab_Hor_menu_is_present()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" started-at="2023-01-31T23:57:50 IST" name="Test02_Verfiy_Music_Tab_Hor_menu_is_present" finished-at="2023-01-31T23:57:50 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_Verfiy_Music_Tab_Hor_menu_is_present -->
+        <test-method signature="Test03_Verify_search_bar_is_present()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" started-at="2023-01-31T23:57:50 IST" name="Test03_Verify_search_bar_is_present" finished-at="2023-01-31T23:57:51 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_Verify_search_bar_is_present -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:youtubeYT.tests.HomePage_YT@55a147cc]" started-at="2023-01-31T23:57:51 IST" name="EndSession" finished-at="2023-01-31T23:57:51 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- youtubeYT.tests.HomePage_YT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
