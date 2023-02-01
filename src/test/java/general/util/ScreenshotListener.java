@@ -1,4 +1,4 @@
-package youTube.util;
+package general.util;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import youtubeYT.tests.SearchPage_YT;
+import savaan.tests.SearchPage;
 
 public class ScreenshotListener extends Property_reader implements ITestListener {
 	

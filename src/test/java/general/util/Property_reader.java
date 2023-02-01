@@ -1,4 +1,4 @@
-package youTube.util;
+package general.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import youtubeYT.tests.SearchPage_YT;
+import savaan.tests.SearchPage;
 
 public class Property_reader {
 	public Properties obj;

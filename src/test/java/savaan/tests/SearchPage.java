@@ -1,4 +1,4 @@
-package youtubeYT.tests;
+package savaan.tests;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,10 +18,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import youTube.util.Property_reader;
 
-public class SearchPage_YT extends Property_reader {
+import general.util.Property_reader;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SearchPage extends Property_reader {
 	
 	 
 	@BeforeClass(groups = "Smoke")
@@ -44,8 +45,8 @@ public class SearchPage_YT extends Property_reader {
     public void Test11_Launch_application() 
     {
     	Elements();
-    	driver.get(obj.getProperty("URL"));
-    	String ExpectedTitle = "YouTub";
+    	driver.get(obj.getProperty("URL1"));
+    	String ExpectedTitle = "YouTube";
     	String ActualTitle = driver.getTitle();
     	Assert.assertEquals(ExpectedTitle, ActualTitle, "Title mismatch:" );
     }

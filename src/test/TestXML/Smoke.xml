@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="youTube.util.ScreenshotListener"> </listener>
+		<listener class-name="general.util.ScreenshotListener"> </listener>
 	</listeners>
 	<test name="Test">
 		<parameter name="Browser" value="Chrome" />
@@ -12,8 +12,8 @@
 		</run>
 	</groups>
 		<classes>
-			<class name="youtubeYT.tests.HomePage_YT" />
-			<class name="youtubeYT.tests.SearchPage_YT" />
+			<class name="savaan.tests.HomePage" />
+			<class name="savaan.tests.SearchPage" />
 		</classes>
 	</test>
 </suite>

@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="youTube.util.ScreenshotListener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="Browser" value="Chrome"/>
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="youtubeYT.tests.SearchPage_YT">
+      <class name="savaan.tests.HomePage">
         <methods>
-          <include name="Test11_Launch_application"/>
-          <include name="Test12_Verfiy_Search_bar_is_working"/>
+          <include name="Test04_Verify_Language_Dropdown_Is_Available"/>
           <include name="Launch_browser"/>
-          <include name="EndSession"/>
         </methods>
-      </class> <!-- youtubeYT.tests.SearchPage_YT -->
+      </class> <!-- savaan.tests.HomePage -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

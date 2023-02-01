@@ -1,4 +1,4 @@
-package youTube.util;
+package general.util;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
